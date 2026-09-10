@@ -77,23 +77,6 @@ npm run build:site   # builds AND publishes dist/ → repository root
 
 After `npm run build:site`, commit and push — the root site is refreshed.
 
-## Deploying to GitHub Pages
-
-1. Push this repository to `github.com/amannizar/aman-nizar-portfolio`.
-2. **Settings → Pages → Source: Deploy from a branch → `main` / `(root)`.**
-3. Done — the site is served at `https://amannizar.github.io/aman-nizar-portfolio/`.
-
-All asset paths are relative (`base: './'`), so it works from any path or custom domain.
-
-## Customising content
-
-Almost everything lives in **`source/src/data/portfolio.js`** — copy, links, skills, projects, timeline, certifications and contact details. Edit it, rebuild, push.
-
-To swap assets:
-
-- `source/public/images/profile/aman-nizar.jpg` — portrait photo
-- `source/public/images/projects/…` — project screenshots
-- `source/public/resume/Aman-Nizar-Resume.pdf` — resume
 
 ## Notes
 
