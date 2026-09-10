@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amannizar.github.io/aman-nizar-portfolio/sitemap.xml

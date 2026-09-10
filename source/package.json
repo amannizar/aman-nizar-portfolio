@@ -1,0 +1,23 @@
+{
+  "name": "aman-nizar-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Personal developer portfolio of Aman Nizar M P — Java Full Stack Developer. Olive editorial, full-screen scroll experience.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:site": "vite build && node scripts/publish.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/dm-serif-display": "^5.1.0",
+    "@fontsource/manrope": "^5.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
